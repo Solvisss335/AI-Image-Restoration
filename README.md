@@ -11,7 +11,7 @@ The goal of this project is to simulate severe image degradation (downscaling + 
 * **Smart Patching Strategy:** The model trains on `256x256` patches to save VRAM, but the inference pipeline can reconstruct full images using a sliding-window approach seamlessly.
 * **Comprehensive Evaluation:** Visual results include Patch-level comparisons, Full Image reconstruction, and L1 Error Maps to analyze network performance accurately.
 
-## 📁 Repository Structure
+## Repository Structure
 ```text
 ├── data/
 │   ├── raw/                  # Original High-Resolution images (Target)
