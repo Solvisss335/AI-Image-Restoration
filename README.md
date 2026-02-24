@@ -1,9 +1,9 @@
-# AI Image Restoration using U-Net 🖼️✨
+# AI Image Restoration using U-Net 
 
 This repository contains a Deep Learning project focused on restoring high-quality images from heavily degraded, compressed, and pixelated inputs. The core of the solution is a custom **Residual U-Net** implemented in PyTorch.
 
-## 🚀 Project Overview
-The goal of this project is to simulate severe image degradation (downscaling + nearest neighbor upscaling + JPEG compression artifacts) and train a Convolutional Neural Network (CNN) to reverse this process and restore the original details.
+## Project Overview
+The goal of this project is to simulate severe image degradation (downscaling + nearest neighbor upscaling + JPEG compression artifacts) and train a Convolutional Neural Network to reverse this process and restore the original details.
 
 ### Key Features:
 * **Custom Degradation Pipeline:** A multi-threaded Python script that automatically generates paired datasets (High-Res vs. Degraded) for training.
