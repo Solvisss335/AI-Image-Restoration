@@ -24,3 +24,10 @@ The goal of this project is to simulate severe image degradation (downscaling + 
 │   └── image_breaker_parallel.py # Multi-threaded script to generate the degraded dataset
 ├── .gitignore
 └── README.md
+```
+
+## Results
+
+<img width="1489" height="536" alt="Result Images" src="https://github.com/user-attachments/assets/d80054f8-4032-46f5-b484-c63a503c35f3" />
+
+ ### More results are available in the [training notebook](notebooks/training_unet.ipynb).
