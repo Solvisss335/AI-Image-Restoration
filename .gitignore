@@ -1,4 +1,2 @@
-data/raw/
-data/processed/
-
-models/*.pth
+xd.ipynb
+tests.ipynb
